@@ -1,5 +1,6 @@
 #ignore jquery
 jquery-ui-1.12.1.custom/
+jquery.js
 
 # Compiled source #
 ###################
