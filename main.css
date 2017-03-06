@@ -1,0 +1,39 @@
+html {
+  background: white;
+  text-align: left;
+  font-family: helvetica, sans-serif;
+}
+
+h1 {
+  background-color: yellow;
+  padding: 0.3em;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
+}
+
+p {
+  background-color: yellow;
+  padding: 0.5em;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
+}
+
+input {
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  text-transform: capitalize;
+  position: absolute;
+  border: none;
+  border-radius: 14px;
+  padding: 10px 20px;
+  margin: 1em 0em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
