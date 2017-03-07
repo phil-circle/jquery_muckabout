@@ -20,3 +20,11 @@ $(document).ready(function() {
 // resizable works but draggable doesn't.
 // AND when draggable set to .photo whilst resizable set to .resizable:
 // IT WORKS!
+
+// UPDATE 21:34
+// resizable it must be said is still a little off.
+// adding more images and playing with the resize does the following:
+// 1. can only resize from the botton left which is irritating
+// 2. maintaining the aspect ratio causes it to be a bit weird but OK
+// 3. can resize outside of the containment area and can affect the positioning of other images
+// 4. dragging then puts them back inside straight away - just a bit weird.
