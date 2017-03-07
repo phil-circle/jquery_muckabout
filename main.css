@@ -4,6 +4,8 @@ html {
   font-family: helvetica, sans-serif;
 }
 
+/* elements */
+
 h1 {
   background-color: yellow;
   padding: 0.3em;
@@ -36,4 +38,19 @@ button {
   margin: 1em 0em;
   font-size: 1.2em;
   font-weight: bold;
+}
+
+/* classes */
+
+.photo {
+  display: inline-block;
+  margin: auto;
+}
+
+/* ids */
+
+#parent {
+  height: 500px;
+  width: 900px;
+  margin: auto;
 }

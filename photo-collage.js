@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    $(".photo").draggable();
-    $("#photo").resizable({
+    $(".photo").draggable({containment: "#parent", scroll: false});
+    $(".photo").resizable({
       aspectRatio: true
     });
 });
